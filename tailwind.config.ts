@@ -63,6 +63,23 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				}
 			},
+			fontFamily: {
+				'gothic': ['Cinzel', 'serif'],
+				'pirate': ['Pirata One', 'cursive'],
+			},
+			backgroundImage: {
+				'gothic-gradient': 'var(--gothic-gradient)',
+				'blood-gradient': 'var(--blood-gradient)',
+				'shadow-gradient': 'var(--shadow-gradient)'
+			},
+			boxShadow: {
+				'dark': 'var(--shadow-dark)',
+				'blood': 'var(--shadow-blood)',
+				'deep': 'var(--shadow-deep)'
+			},
+			transitionTimingFunction: {
+				'haunting': 'var(--transition-haunting)'
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
@@ -100,27 +117,36 @@ export default {
 				'fade-in-up': {
 					'0%': {
 						opacity: '0',
-						transform: 'translateY(10px)'
+						transform: 'translateY(20px)'
 					},
 					'100%': {
 						opacity: '1',
 						transform: 'translateY(0)'
 					}
 				},
-				'pulse-glow': {
+				'blood-pulse': {
 					'0%, 100%': {
 						boxShadow: '0 0 5px hsl(var(--accent))'
 					},
 					'50%': {
-						boxShadow: '0 0 20px hsl(var(--accent))'
+						boxShadow: '0 0 30px hsl(var(--accent)), 0 0 60px hsl(var(--accent))'
+					}
+				},
+				'gothic-glow': {
+					'0%, 100%': {
+						textShadow: '0 0 10px hsl(var(--accent))'
+					},
+					'50%': {
+						textShadow: '0 0 20px hsl(var(--accent)), 0 0 30px hsl(var(--accent))'
 					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'fade-in-up': 'fade-in-up 0.6s ease-out',
-				'pulse-glow': 'pulse-glow 2s ease-in-out infinite'
+				'fade-in-up': 'fade-in-up 0.8s ease-out',
+				'blood-pulse': 'blood-pulse 3s ease-in-out infinite',
+				'gothic-glow': 'gothic-glow 2s ease-in-out infinite'
 			}
 		}
 	},

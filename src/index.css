@@ -8,43 +8,44 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 0 0% 8%;
+    --foreground: 0 0% 92%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 90%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 90%;
 
-    --primary: 210 100% 15%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 0 0% 15%;
+    --primary-foreground: 0 0% 95%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 0 0% 18%;
+    --secondary-foreground: 0 0% 85%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 0 0% 18%;
+    --muted-foreground: 0 0% 60%;
 
-    --accent: 25 95% 53%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 348 83% 35%;
+    --accent-foreground: 0 0% 95%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 210 100% 15%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 348 83% 35%;
 
-    /* Custom design tokens */
-    --hero-gradient: linear-gradient(135deg, hsl(210 100% 15%), hsl(210 100% 25%));
-    --accent-gradient: linear-gradient(135deg, hsl(25 95% 53%), hsl(35 95% 58%));
-    --surface-gradient: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 40% 98%));
+    /* Gothic design tokens */
+    --gothic-gradient: linear-gradient(135deg, hsl(0 0% 8%), hsl(0 0% 15%));
+    --blood-gradient: linear-gradient(135deg, hsl(348 83% 35%), hsl(0 85% 45%));
+    --shadow-gradient: linear-gradient(180deg, hsl(0 0% 8%), hsl(0 0% 5%));
     
-    --shadow-elegant: 0 10px 30px -10px hsl(210 100% 15% / 0.3);
-    --shadow-glow: 0 0 40px hsl(25 95% 53% / 0.4);
+    --shadow-dark: 0 25px 50px -12px hsl(0 0% 0% / 0.8);
+    --shadow-blood: 0 0 50px hsl(348 83% 35% / 0.5);
+    --shadow-deep: inset 0 2px 4px 0 hsl(0 0% 0% / 0.3);
     
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-haunting: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
 
     --radius: 0.5rem;
 

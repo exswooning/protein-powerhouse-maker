@@ -5,6 +5,15 @@ import gothicProtein from "@/assets/gothic-protein.jpg";
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen bg-shadow-gradient overflow-hidden">
+      <video 
+        autoPlay 
+        loop 
+        muted 
+        className="absolute inset-0 w-full h-full object-cover opacity-30 filter brightness-50 saturate-150 contrast-125"
+        style={{ filter: 'sepia(20%) hue-rotate(240deg) brightness(0.7) contrast(1.2)' }}
+      >
+        <source src="https://videos.pexels.com/video-files/2491268/2491268-hd_1920_1080_25fps.mp4" type="video/mp4" />
+      </video>
       <div className="absolute inset-0 bg-gothic-gradient opacity-80"></div>
       <div className="absolute inset-0">
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent via-accent/5 to-accent/20"></div>
@@ -24,10 +33,10 @@ const HeroSection = () => {
             </div>
             
             <h1 className="font-pirate text-6xl lg:text-8xl font-bold mb-8 leading-tight animate-gothic-glow">
-              <span className="text-foreground">DARK</span>
+              <span className="text-foreground">DGX</span>
               <br />
-              <span className="bg-blood-gradient bg-clip-text text-transparent">
-                DOMINION
+              <span className="bg-blood-gradient bg-clip-text text-transparent animate-pulse">
+                NEPAL
               </span>
             </h1>
             
@@ -67,7 +76,7 @@ const HeroSection = () => {
             <div className="relative animate-blood-pulse">
               <img
                 src={gothicProtein}
-                alt="Dark Dominion Protein"
+                alt="DGX Nepal Protein"
                 className="w-full max-w-lg mx-auto object-contain drop-shadow-2xl"
               />
               <div className="absolute inset-0 bg-blood-gradient opacity-30 blur-3xl rounded-full"></div>

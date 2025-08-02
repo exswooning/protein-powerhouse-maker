@@ -37,12 +37,12 @@ const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
-              <Button variant="hero" size="lg" className="px-8 py-4 text-lg">
+              <Button variant="hero" size="lg" className="px-8 py-4 text-lg backdrop-blur-md bg-blood-gradient/80 border border-white/20">
                 <Skull className="w-5 h-5 mr-2" />
-                Claim Your Power - $49.99
+                Kinnu Sakti - $49.99
               </Button>
-              <Button variant="gothic" size="lg" className="px-8 py-4 text-lg">
-                Witness the Darkness
+              <Button variant="gothic" size="lg" className="px-8 py-4 text-lg backdrop-blur-sm bg-black/40 border border-accent/30">
+                Hernu Andhakaar
               </Button>
             </div>
             

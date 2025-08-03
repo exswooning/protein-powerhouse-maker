@@ -24,7 +24,7 @@ const HeroSection = () => {
           <div className="text-center lg:text-left animate-fade-in-up">
             
             <h1 className="font-pirate text-8xl lg:text-9xl font-bold mb-8 leading-tight animate-gothic-glow">
-              <span className="text-foreground tracking-widest">DGX</span>
+              <span className="text-foreground">DGX</span>
               <br />
               <span className="bg-blood-gradient bg-clip-text text-transparent animate-blink">
                 NEPAL

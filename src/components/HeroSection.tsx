@@ -22,15 +22,6 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
           {/* Left Content */}
           <div className="text-center lg:text-left animate-fade-in-up">
-            <div className="flex items-center justify-center lg:justify-start mb-6">
-              <Crown className="w-8 h-8 text-accent mr-3" />
-              <div className="flex items-center space-x-1">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-accent text-accent" />
-                ))}
-              </div>
-              <span className="ml-3 text-muted-foreground font-gothic font-medium">Forged by 2,500+ Warriors</span>
-            </div>
             
             <h1 className="font-pirate text-6xl lg:text-8xl font-bold mb-8 leading-tight animate-gothic-glow">
               <span className="text-foreground">DGX</span>

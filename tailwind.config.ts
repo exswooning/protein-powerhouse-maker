@@ -139,6 +139,14 @@ export default {
 					'50%': {
 						textShadow: '0 0 20px hsl(var(--accent)), 0 0 30px hsl(var(--accent))'
 					}
+				},
+				'blink': {
+					'0%, 100%': {
+						opacity: '1'
+					},
+					'50%': {
+						opacity: '0'
+					}
 				}
 			},
 			animation: {
@@ -146,7 +154,8 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in-up': 'fade-in-up 0.8s ease-out',
 				'blood-pulse': 'blood-pulse 3s ease-in-out infinite',
-				'gothic-glow': 'gothic-glow 2s ease-in-out infinite'
+				'gothic-glow': 'gothic-glow 2s ease-in-out infinite',
+				'blink': 'blink 1s ease-in-out infinite'
 			}
 		}
 	},

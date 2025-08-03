@@ -35,7 +35,7 @@ const HeroSection = () => {
             <h1 className="font-pirate text-6xl lg:text-8xl font-bold mb-8 leading-tight animate-gothic-glow">
               <span className="text-foreground">DGX</span>
               <br />
-              <span className="bg-blood-gradient bg-clip-text text-transparent animate-pulse">
+              <span className="bg-blood-gradient bg-clip-text text-transparent animate-blink">
                 NEPAL
               </span>
             </h1>
